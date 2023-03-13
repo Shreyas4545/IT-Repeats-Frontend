@@ -97,7 +97,7 @@ const Dashboard = () => {
     console.log(formdata.get("departmentName"));
     const config = {
       method: "post",
-      url: "http://localhost:9000/api/question-paper/save-details",
+      url: "https://itrepeats-backend-2p5h.vercel.app/api/question-paper/save-details",
       headers: {
         "Content-Type": "multipart/form-data",
       },
